@@ -8,6 +8,10 @@
       {
         "matchUpdateTypes": ["major"],
         "dependencyDashboardApproval": true
-      }
+      },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
     ]
 }
